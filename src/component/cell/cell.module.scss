@@ -1,5 +1,5 @@
 .cell {
-  background-color: var(--white);
+  background-color: #ffff;
   transition: 0.1s linear;
   position: relative;
   border-radius: 5px;
@@ -66,6 +66,6 @@
 }
 
 .cellWhite {
-  background-color: var(--primary);
-  border: 1px solid var(--black);
+  background-color: rgb(205, 192, 50);
+  border: 1px solid black;
 }

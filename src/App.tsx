@@ -98,7 +98,7 @@ function App() {
   };
 
   const setSelected: functionType = (x, y) => {
-    // first  we need to deep copy our "board"
+
     const newBoard: CellProps[][] = board.map((row) =>
       row.map((cell) => Object.assign({}, cell))
     );
@@ -149,11 +149,7 @@ function App() {
   return (
     <>
       <div className={cls.navbar}>
-        <a
-          
-        >
-          <i className="fa-3x fa-brands fa-github"></i>
-        </a>
+       
       </div>
       <div className={cls.wrapper}>
         <div
